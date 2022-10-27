@@ -70,7 +70,7 @@ npm install
 npm start
 ```
 
-## Video demo of the app:
+## Demo video of the app:
 
 [![Alt text](https://img.youtube.com/vi/OKHy-u2kb8M/0.jpg)](https://www.youtube.com/watch?v=OKHy-u2kb8M)
 
