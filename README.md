@@ -53,7 +53,7 @@ python flask_server/src/app.py
 
 #### Execute **front-end**:
 
-You need to go to **client** folder and execute the following command
+You need to go to **client** folder and execute the following commands
 
 ```
 apt-get install node
