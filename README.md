@@ -15,7 +15,7 @@ consolidate bank information into typically an **excel**, our solution can solve
 To solve this problem we use a third-party ``API`` (Application Programming Interface) --> [Datanomik](https://www.datanomik.com/en/).
 This API allows us to link your bank accounts to our app, we trust Datanomik because they complied with all the [security standards](https://docs.datanomik.com/docs/about-security).
 
-## Installation
+## Installation 💻
 
 **Environment**: ``Ubuntu LTS 20.04``
 
@@ -25,7 +25,7 @@ This API allows us to link your bank accounts to our app, we trust Datanomik bec
 git clone https://github.com/JuanManuelReyes/bantech-mvp.git
 ```
 
-#### Secondly install the following dependencies with ``pip``:
+#### Second install the following dependencies with ``pip``:
 
 ```
 autopep8==1.5.7
@@ -45,6 +45,15 @@ Werkzeug==2.0.1
 WTForms==2.3.3
 ```
 
+#### Third install Database:
+
+You need to install ``MySQL`` and run the following script (this script is in the **flask_server** folder):
+
+```
+cat script-database.sql | sudo mysql -uroot -p
+```
+Once you enter your password the script will create the database and populate some users data.
+
 #### Execute **backend**:
 
 ```
@@ -60,15 +69,6 @@ apt-get install node
 npm install
 npm start
 ```
-
-#### Database:
-
-You need to install ``MySQL`` and run the following script:
-
-```
-cat script-database.sql | sudo mysql -uroot -p
-```
-Once you enter your password the script will create the database and populate some users data.
 
 ## Getting Started:
 
