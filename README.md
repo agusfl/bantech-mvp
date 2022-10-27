@@ -4,6 +4,8 @@
 
 All your bank information in one place.
 
+![enter image description here](https://github.com/JuanManuelReyes/bantech-mvp/blob/main/flask_server/src/static/img/otrologo.png?raw=true)
+
 ## Description 📑
 
 The main goal of ``BanTech`` is to **consolidate** all your company's financial information into one place, with an easy way of linking your bank accounts into our app.
