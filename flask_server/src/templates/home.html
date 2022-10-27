@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Marcado -->
+    <meta charset="UTF-8" />
+
+    <!-- Metas -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon -->
+    <link rel="icon" href="./img/logoBantech.png" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../static/css/home.css" />
+    <link rel="stylesheet" href="../static/css/cards-style.css" />
+    <link rel="stylesheet" href="../static/css/team.css" />
+    <link rel="stylesheet" href="../static/css/header.css" />
+    <link rel="stylesheet" href="../static/css/form.css">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+
+    <!-- Page Title -->
+    <title>Home - BanTech</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header-top">
+        <div class="header-logo-div">
+          <img src="../static/img/otrologo.png" alt="BanTech Logo" class="logo" />
+        </div>
+        <div class="buttons">
+          {% if current_user.fullname  %}
+          <p>Welcome, {{ current_user.fullname }} !</p>
+          <a href="{{ url_for('logout') }}"><button class="button-del">Log Out</button></a>
+          {% endif %}
+          {% if current_user.fullname == undefined  %}
+          <a href="{{ url_for('login') }}"><button class="button-log">Log In</button></a>
+          <a href="{{ url_for('register') }}"><button class="button-reg">Register</button></a>
+          {% endif %}
+        </div>
+      </div>
+    </header>
+
+    <div class="all-content">
+      <!-- PRIMERA SECCION -->
+      
+
+      <section class="curved">
+        <div class="all-header">
+          <div class="header-content">
+            <div class="header-text">
+              <h1>Join the Open Banking Revolution</h1>
+              <p>
+                With BanTech you can manage all your bank accounts in one place,
+                <br />
+                There is an easy, secure and fast way. What are you waiting for?
+                <br />
+                Get all your bank information in one place!
+              </p>
+              {% if current_user.fullname  %}
+              <a href="{{ url_for('go_app') }}"><button class="button-app">Go To App</button></a>
+              {% endif %}
+            </div>
+            <div class="header-img">
+              <img src="../static/img/isometric.png" alt="" class="img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!-- SECCION BENEFICIOS -->
+      <div class="section-one">
+        <div class="title">
+          <h1>Benefits of Using Bantech</h1>
+        </div>
+        <div class="card-container">
+          <div class="wrap">
+            <div class="card">
+              <div class="front">
+                <span><img src="../static/img/dashboard.png" alt="" class="card-icon"/></span>
+              </div>
+              <div class="back"><span><h4>Dashboard</h4>At BanTech we offer dynamic dashboard with all the necessary information to take quick and right decisions for your company.</span></div>
+            </div>
+            <div class="card">
+              <div class="front">
+                <span><img src="../static/img/secure-shield.png" alt="" class="card-icon"/></span>
+              </div>
+              <div class="back"><span><h4>Security</h4>BanTech will not store any of your bank data, only the personal ones, and these are encrypted in compliance with all security standards.</span></div>
+            </div>
+            <div class="card">
+              <div class="front">
+                <span><img src="../static/img/bank.png" alt="" class="card-icon"/></span>
+              </div>
+              <div class="back"><span><h4>Institutions</h4>With our service you can link all your accounts from all local banks in Uruguay.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <!-- SECCION TEAM -->
+      <div class="section-two">
+        <div class="title">
+          <h1>BanTech Team</h1>
+        </div>
+        <div class="team">
+          <div class="member">
+            <h2>Agustin Flom</h2>
+            <div>
+              <img
+                src="../static/img/64185026.jfif"
+                alt="Agustin Flom Pic"
+                class="profile"
+              />
+            </div>
+            <div class="description">
+              <ul>
+                <li>BackEnd Developer</li>
+                <li>Bussines Analist</li>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://github.com/agusfl" target="_blank"
+                ><img src="../static/img/github.png" class="git" alt="GitHub Icon"
+              /></a>
+              <a href="https://www.linkedin.com/in/agustin-f/" target="_blank"
+                ><img src="../static/img/linkedin.png" class="linkedin" alt="Linkedin Icon"
+              /></a>
+            </div>
+          </div>
+          <div class="member">
+            <h2>Marcela Carrasco</h2>
+            <div>
+              <img
+                src="../static/img/91094893.jfif"
+                alt="Marcela Carrasco Pic"
+                class="profile"
+              />
+            </div>
+            <div class="description">
+              <ul>
+                <li>BackEnd Developer</li>
+                <li>Bussines Analist</li>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://github.com/mcarrascopiaggio" target="_blank"
+                ><img src="../static/img/github.png" class="git" alt="GitHub Icon"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/marcela-carrasco-piaggio-0796b333/"
+                target="_blank"
+                ><img src="../static/img/linkedin.png" class="linkedin" alt="Linkedin Icon"
+              /></a>
+            </div>
+          </div>
+          <div class="member">
+            <h2>Juan Manuel Reyes</h2>
+            <div>
+              <img
+                src="../static/img/73147324.jfif"
+                alt="Juan Reyes Pic"
+                class="profile"
+              />
+            </div>
+            <div class="description">
+              <ul>
+                <li>BackEnd Developer</li>
+                <li>Bussines Analist</li>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://github.com/JuanManuelReyes" target="_blank"
+                ><img src="../static/img/github.png" class="git" alt="GitHub Icon"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/juanma-reyess/"
+                target="_blank"
+                ><img src="../static/img/linkedin.png" class="linkedin" alt="Linkedin Icon"
+              /></a>
+            </div>
+          </div>
+          <div class="member">
+            <h2>Tarik Calixto</h2>
+            <div>
+              <img
+                src="../static/img/98341381.png"
+                alt="Tarik Calixto Pic"
+                class="profile"
+              />
+            </div>
+            <div class="description">
+              <ul>
+                <li>BackEnd Developer</li>
+                <li>Bussines Analist</li>
+              </ul>
+            </div>
+            <div class="social">
+              <a href="https://github.com/tarikaudi" target="_blank"
+                ><img src="../static/img/github.png" class="git" alt="GitHub Icon"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/tarik-audi-8351141b7"
+                target="_blank"
+                ><img src="../static/img/linkedin.png" class="linkedin" alt="Linkedin Icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+      <!-------PARA QUE SERVIMOS-->>
+      <div class="video-container">
+        <h1>How to Use Bantech</h1>
+        <div class="video">
+          <iframe width="1200" height="700" src="https://www.youtube.com/embed/ZuIrD5T8bXo" title="GIGANTES DE LA INGENIERÍA: EL CANAL DE PANAMÁ | EPISODIO COMPLETO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- SECCION CONTACTO -->
+      <div class="separator"></div>
+      <div class="contact">
+        <div class="contact-form">
+          <form action="index.html" method="post">
+
+            <h1>Contact Us</h1>
+          
+            <fieldset>
+              <legend><span class="number">1</span>Personal Informaton</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+          
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="user_email">
+            </fieldset>
+          
+            <fieldset>
+              <legend><span class="number">2</span>Describe your problem</legend>
+              <label for="bio">Description:</label>
+              <textarea id="bio" name="user_bio"></textarea>
+            </fieldset>
+          
+            <label f or="job">Job Position</label>
+            <select id="job" name="user_job">
+                      <optgroup label="Web">
+                          <option value="frontend_developer">Front-End Developer</option>
+                          <option value="php_developer">PHP Developer</option>
+                          <option value="python_developer">Python Developer</option>
+                          <option value="rails_developer">Rails Developer</option>
+                          <option value="web_designer">Web Designer</option>
+                          <option value="wordpress_developer">Wordpress Developer</option>
+                      </optgroup>
+                      <optgroup label="Mobile">
+                          <option value="android_developer">Android Developer</option>
+                          <option value="ios_developer">iOS Developer</option>
+                          <option value="mobile_designer">Mobile Designer</option>
+                      </optgroup>
+                      <optgroup label="Business">
+                          <option value="business_owner">Business Owner</option>
+                          <option value="freelancer">Freelancer</option>
+                      </optgroup>
+                      </select>
+            
+            <button class="button" type="submit">Submit</button>
+          
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="foot">
+        <img src="./static/img/otrologo.png" alt="" class="logo-foot">
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/background.js"></script>
+    <script src="./scripts/cards.js"></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
+

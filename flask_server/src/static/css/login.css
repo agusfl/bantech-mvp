@@ -1,0 +1,91 @@
+/* Fuente */
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400");
+@font-face {
+  font-family: sf-pro;
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+body {
+  margin: 0;
+}
+.divider{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.left {
+  background: linear-gradient(-135deg, #0E0E23 50%, #4255D3  100%);
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.right {
+    background: linear-gradient(180deg, #cccccc 0%, #ffffff  100%);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    /* box-shadow: inset 10px 0px 0px 0px  rgb(0, 0, 0); */
+    box-shadow: 16px 1px 400px -97px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 16px 1px 400px -97px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 16px 1px 400px -97px rgba(0,0,0,0.75) inset;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 450px;
+  /* padding: 15px;
+  padding-bottom: 200px; */
+  margin: auto;
+}
+
+.secure{
+  width: 20%;
+  padding-bottom: 120px;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-radius: 100px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+#btn{
+  border-radius: 100px;
+  font-family: sf-pro;
+  font-size: 24px;
+  font-weight: 500;
+}
+p{
+  padding-top: 10px;
+  font-family: sf-pro;
+  font-weight: 300;
+  font-size: 18px;
+}
+a{
+  font-weight: 500;
+}
+h1{
+  font-family: sf-pro;
+}
+label{
+  font-family: sf-pro;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.alert{
+  font-family: sf-pro;
+  font-size: 20px;
+}
+
+.alert-primary {
+  color: #000000;
+  background: white;
+  border-color: #000000;
+}

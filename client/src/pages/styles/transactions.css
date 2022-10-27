@@ -1,0 +1,163 @@
+body{
+    background: #1A2049;
+    font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Tittle_transactions{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+/* Tabla*/
+.css-1e2bxag-MuiDataGrid-root {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+    border: rgb(255, 255, 255, 0.1) 1px solid !important;
+    border-radius: 10px;
+    color: rgb(255, 255, 255) !important ;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 100.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    outline: none;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell{
+    border-bottom: 1px solid rgba(224, 224, 224, 0) !important;
+}
+
+.MuiTablePagination-displayedRows{
+    color: white !important;
+}
+
+.MuiTablePagination-actions{
+    color: white !important;
+}
+
+.Mui-disabled{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.MuiDataGrid-iconButtonContainer{
+    color: white !important; 
+}
+
+.MuiSvgIcon-root{
+    color: white !important; 
+}
+.MuiButtonBase-root{
+    color: white !important; 
+} 
+
+.MuiDataGrid-columnHeaderTitle {
+    font-size: 24px !important;
+    text-align: center !important;
+    align-items: center!important;
+    justify-content: space-around;
+}
+.MuiDataGrid-cellContent{
+    font-size: 16px !important;
+}
+
+.MuiDataGrid-columnHeaders{
+    text-align: center !important;
+    align-items: center!important;
+    justify-content: space-around;
+}
+.MuiDataGrid-columnHeadersInner{
+    text-align: center !important;
+    align-items: center!important;
+}
+
+.css-f3jnds-MuiDataGrid-columnHeaders{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.MuiDataGrid-footerContainer{
+    border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.layout{
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.transacciones{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px; 
+    height: 800px;
+    -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+}
+.Table{
+   
+
+}
+
+.MuiDataGrid-root{
+    margin-top: 35px !important;
+}
+
+.login{
+    margin-top: 100px;
+}
+.cont{
+    padding-top: 170px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 350px;
+    width: 700px;
+    margin-left: 30%;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+    -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+    box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+}
+
+
+.button-log {
+    background-color: rgb(67, 56, 209) !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 12px 18px !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+    color: white !important;
+    outline: none !important;
+    margin-top: 30px !important;
+}
+
+.button-log:hover{
+    transform: scale(1.02);
+  }
+  
+.button-log:active{
+    box-shadow: 1px 1px 8px 1px #9d9d9d;
+}

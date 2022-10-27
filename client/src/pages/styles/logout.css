@@ -1,0 +1,79 @@
+.login{
+    margin-top: 100px;
+}
+.cont{
+    padding-top: 170px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 350px;
+    width: 700px;
+    margin-left: 30%;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+    -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+    box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+}
+
+
+.button-log {
+    background-color: rgb(67, 56, 209) !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 12px 18px !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+    color: white !important;
+    outline: none !important;
+    margin-top: 30px !important;
+}
+
+.button-log:hover{
+    transform: scale(1.02);
+  }
+  
+.button-log:active{
+    box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+.logout{
+    margin-top: 100px;
+}
+.cont-logout{
+    padding-top: 170px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 350px;
+    width: 700px;
+    margin-left: 30%;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+    -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+    box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+}
+
+
+.button-logout {
+    background-color: rgb(67, 56, 209) !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 12px 18px !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+    color: white !important;
+    outline: none !important;
+    margin-top: 30px !important;
+}
+
+.button-logout:hover{
+    transform: scale(1.02);
+  }
+  
+.button-logout:active{
+    box-shadow: 1px 1px 8px 1px #9d9d9d;
+}

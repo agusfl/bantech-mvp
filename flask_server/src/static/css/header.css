@@ -1,0 +1,148 @@
+header {
+  color: white;
+}
+
+.header-top {
+  color: white;
+  background-image: linear-gradient(
+  270deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(249deg 85% 23%) 0%,
+  hsl(252deg 71% 26%) 0%,
+  hsl(255deg 60% 29%) 0%,
+  hsl(256deg 52% 32%) 1%,
+  hsl(257deg 46% 35%) 2%,
+  hsl(258deg 40% 37%) 4%,
+  hsl(259deg 35% 40%) 6%,
+  hsl(260deg 31% 43%) 11%,
+  hsl(261deg 27% 46%) 20%,
+  hsl(261deg 23% 49%) 35%,
+  hsl(262deg 22% 52%) 51%,
+  hsl(262deg 21% 55%) 62%,
+  hsl(263deg 21% 58%) 70%,
+  hsl(263deg 20% 61%) 76%,
+  hsl(264deg 18% 64%) 81%,
+  hsl(264deg 17% 67%) 85%,
+  hsl(264deg 15% 71%) 89%,
+  hsl(265deg 13% 74%) 92%,
+  hsl(265deg 10% 77%) 95%,
+  hsl(265deg 6% 80%) 98%,
+  hsl(0deg 0% 83%) 100%
+);
+  height: 20vh;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.curved {
+    color: white;
+    position: relative;
+    background-image: linear-gradient(
+  270deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(249deg 85% 23%) 0%,
+  hsl(252deg 71% 26%) 0%,
+  hsl(255deg 60% 29%) 0%,
+  hsl(256deg 52% 32%) 1%,
+  hsl(257deg 46% 35%) 2%,
+  hsl(258deg 40% 37%) 4%,
+  hsl(259deg 35% 40%) 6%,
+  hsl(260deg 31% 43%) 11%,
+  hsl(261deg 27% 46%) 20%,
+  hsl(261deg 23% 49%) 35%,
+  hsl(262deg 22% 52%) 51%,
+  hsl(262deg 21% 55%) 62%,
+  hsl(263deg 21% 58%) 70%,
+  hsl(263deg 20% 61%) 76%,
+  hsl(264deg 18% 64%) 81%,
+  hsl(264deg 17% 67%) 85%,
+  hsl(264deg 15% 71%) 89%,
+  hsl(265deg 13% 74%) 92%,
+  hsl(265deg 10% 77%) 95%,
+  hsl(265deg 6% 80%) 98%,
+  hsl(0deg 0% 83%) 100%
+);
+    
+    height: 79.8vh;
+    width: 100vw;
+    border-bottom-right-radius: 50% 50%;
+    margin-left: 0 !important;
+    
+}
+
+.logo {
+  width: 300px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  margin: auto 10px;
+  border-radius: 5px;
+}
+
+.buttons button {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:active {
+  opacity: 0.9;
+}
+
+.buttons button:hover {
+  background-color: #34f503;
+}
+
+.all-header {
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-content div {
+  margin: auto 25px;
+}
+
+.header-text button {
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.header-text button:active {
+  opacity: 0.9;
+}
+
+.header-text button:hover {
+  background-color: #34f503;
+}
+
+.header-img {
+}
+
+.img {
+  width: 100%;
+  margin: auto;
+}

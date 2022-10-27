@@ -1,0 +1,58 @@
+.section-two {
+  /* position: relative; */
+  margin: auto;
+  border-radius: 20px;
+}
+
+.member {
+  padding: 10px;
+  padding-bottom: 1px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+  195deg,
+  hsl(0deg 0% 60%) 1%,
+  hsl(0deg 0% 60%) 99%
+);
+}
+
+.team {
+  margin: auto 12%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.member div {
+  margin: 15px;
+  width: 190px;
+  
+}
+
+.profile {
+  width: 115px;
+  border-radius: 100px;
+}
+
+.description ul {
+  display: inline;
+  list-style: none;
+  color: black;
+}
+
+.social {
+  padding-top: 30px;
+}
+.social a{
+    margin-left: 10px;
+}
+
+.social a img:hover{
+    transform: scale(1.04);
+}
+
+.title {
+  text-align: center;
+}

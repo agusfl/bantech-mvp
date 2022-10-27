@@ -1,0 +1,191 @@
+/*Imports*/
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400");
+/* Fuente */
+@font-face {
+  font-family: sf-pro;
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+/* Estilos Comunes (Aplicados al Header y Footer) */
+*{
+  font-family: sf-pro;
+}
+body {
+  overflow-x: hidden;
+  color: white;
+  background-image: linear-gradient(
+  225deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(249deg 85% 23%) 19%,
+  hsl(252deg 71% 26%) 29%,
+  hsl(255deg 60% 29%) 36%,
+  hsl(256deg 52% 32%) 43%,
+  hsl(257deg 46% 35%) 50%,
+  hsl(258deg 40% 37%) 56%,
+  hsl(259deg 35% 40%) 61%,
+  hsl(260deg 31% 43%) 66%,
+  hsl(261deg 27% 46%) 71%,
+  hsl(261deg 23% 49%) 75%,
+  hsl(262deg 22% 52%) 79%,
+  hsl(262deg 21% 55%) 83%,
+  hsl(263deg 21% 58%) 87%,
+  hsl(263deg 20% 61%) 90%,
+  hsl(264deg 18% 64%) 93%,
+  hsl(264deg 17% 67%) 95%,
+  hsl(264deg 15% 71%) 97%,
+  hsl(265deg 13% 74%) 99%,
+  hsl(265deg 10% 77%) 100%,
+  hsl(265deg 6% 80%) 100%,
+  hsl(0deg 0% 83%) 100%
+);
+  background-repeat: no-repeat;
+  font-family: sf-pro;color: white;
+}
+
+.separator {
+  height: 2px;
+  background-color: rgb(101, 101, 101);
+  width: 60vw;
+  margin: 30px auto;
+}
+
+.all_body {
+  height: 1400px;
+}
+
+.all-header {
+  border-radius: 20px;
+}
+
+.contact {
+  border-radius: 20px;
+}
+.section-one {
+  border-radius: 20px;
+}
+
+.card-icon{
+  height: 150px;
+}
+
+.git, .linkedin{
+  height: 40px;
+}
+
+h1{
+  color: white;
+}
+
+.video-container{
+  margin-bottom: 50px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+
+}
+
+.foot{
+  display: flex;
+  justify-content: center;
+}
+.foot img{
+  width: 220px;
+  margin-bottom: 30px;
+}
+
+
+
+.button-log {
+  background-color: rgb(67, 56, 209) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-top: 10px !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.button-log:hover{
+  transform: scale(1.02);
+}
+
+.button-log:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+
+.button-reg {
+  background-color: rgb(135, 134, 150) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: rgb(255, 255, 255)!important;
+  outline: none !important;
+  margin-top: 10px !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.button-reg:hover{
+  transform: scale(1.02);
+}
+
+.button-reg:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+.button-del {
+  background-color: rgb(175, 0, 0) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-top: 10px !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.button-del:hover{
+  transform: scale(1.02);
+}
+
+.button-del:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+.button-app {
+  background-color: rgb(67, 56, 209) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-top: 10px !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.button-app:hover{
+  transform: scale(1.02);
+}
+
+.button-app:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}

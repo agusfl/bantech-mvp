@@ -1,0 +1,80 @@
+/* Fuente */
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400");
+@font-face {
+  font-family: sf-pro;
+  src: url(./pages/styles/font/SFPRODISPLAYREGULAR.OTF);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sf-pro;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white !important;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  cursor:pointer;
+}
+
+.link {
+  display: flex;
+  color: white !important;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background-color: rgb(72, 71, 71);
+  color: black;
+  transition: all 0.5s;
+}
+
+.active {
+  background-color: rgb(72, 71, 71);
+  color: black;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+/* Estilos Tabla */
+td, th {
+  padding: 8px;
+}
+path{
+  stroke: white;
+}

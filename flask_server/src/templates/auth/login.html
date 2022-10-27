@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../static/css/login.css" />
+    <!-- Icon -->
+    <link rel="icon" href="../../static/img/logoBantech.png" />
+    <!--///////////////////////////////////////////////////////////////////////////-->
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!--///////////////////////////////////////////////////////////////////////////-->
+    <title>Log In - BanTech</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="divider">
+      <div class="left">
+        <div>
+          <img src="../../static/img/otrologo.png" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <div>
+          <div>
+            <!-- <h4>Secured By BanTech Secure</h4> -->
+            <!-- <img src="../../static/img/authpng.png" alt="" class="secure"> -->
+          </div>
+          <form class="form-signin" action="/login" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+            {% with messages = get_flashed_messages() %}
+        
+            {% if messages %}
+            <br />
+            {% for message in messages %}
+            
+            <div class="alert alert-danger">
+              <strong>{{ message }}</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+            {% endif %}
+        
+            {% endwith %}
+            <h1 class="h3 mb-3 fw-normal">Sing In</h1>
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                <label for="username">Username</label>
+            </div>
+            <div class="form-floating mt-2">
+                <input type="password" class="form-control" name="password" placeholder="Password">
+                <label for="password">Password</label>
+            </div>
+            <button id="btn" class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <p>Don't have an account? <a href="http://localhost:5000/register">Sing Up</a></p>
+        </form>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

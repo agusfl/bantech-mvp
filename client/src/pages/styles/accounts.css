@@ -1,0 +1,248 @@
+.all-content {
+  margin: auto;
+}
+
+h1{
+  color: white !important;
+}
+
+.formulario{
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 650px;
+  margin-bottom: 30px;
+  align-items: center;
+  -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+}
+
+form{
+  margin: auto;
+  max-width: 500px !important;
+  border-radius: 10px !important;
+  border: 2px solid rgb(255, 255, 255, 0.5) !important;
+}
+
+span{
+  color: rgb(210, 210, 210) !important;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+label{
+  color: rgb(210, 210, 210) !important;
+  font-size: 16px !important;
+  letter-spacing: 0.5px;
+  text-align: end;
+}
+
+select{
+  border-radius: 10px !important;
+  font-size: 16px !important;
+}
+
+input{
+  border-radius: 10px !important;
+  font-size: 16px !important;
+  min-height: 20px;
+}
+
+.form-buttons{
+  margin: auto;
+  justify-content: center;
+}
+
+.button-sub {
+  background-color: rgb(67, 56, 209) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-top: 10px !important;
+}
+
+.button-sub:hover{
+  transform: scale(1.02);
+}
+
+.button-sub:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+.button-res {
+  background-color: rgb(132, 132, 132) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-top: 10px !important;
+}
+
+.button-res:hover{
+  transform: scale(1.02);
+}
+
+.button-res:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+h4 {
+  font-size: 22px;
+  color: white;
+}
+
+.loader-off {
+  display: none;
+}
+
+.loader-on {
+  display: block !important;
+}
+
+#loader{
+  margin: auto;
+  align-items: center;
+}
+
+.three {
+  margin-left: 43%;
+}
+
+.banks h4{
+  font-size: 22px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+tbody {
+  border: rgb(255, 255, 255, 0.1) 1px solid !important;
+  border-radius: 10px !important;
+  z-index: 9999 !important;
+  margin-left: 50px;
+}
+
+td{
+  font-size: 16px !important;
+  text-align: end;
+}
+
+.bank-container{
+  display: flex;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 650px;
+  min-height: 50px;
+  max-height: 400px;
+  margin: auto;
+  padding-top: 20px;
+  -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  overflow-y:auto;
+}
+
+
+.banks{
+  margin: auto;
+}
+
+
+.button-del {
+  background-color: rgb(175, 0, 0) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 7px 12px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-left: 20px;
+}
+
+.button-del:hover{
+  transform: scale(1.02);
+}
+
+.button-del:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}
+
+
+/* button effect */
+.button {
+  background-position: center !important;
+  transition: 0.8s !important;
+}
+.button:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000% !important;
+}
+.button:active {
+  background-color: #6eb9f7 !important;
+  background-size: 100% !important;
+  transition: 0s !important;
+}
+
+input{
+  font-size: 16px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 2.5px;
+  margin-top: 5px;
+}
+
+.login{
+  margin-top: 100px;
+}
+.cont{
+  padding-top: 170px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  height: 350px;
+  width: 700px;
+  margin-left: 30%;
+  color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  -moz-box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+  box-shadow: 5px 5px 26px -17px rgba(255,255,255,1);
+}
+
+
+.button-log {
+  background-color: rgb(67, 56, 209) !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 12px 18px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: white !important;
+  outline: none !important;
+  margin-top: 30px !important;
+}
+
+.button-log:hover{
+  transform: scale(1.02);
+}
+
+.button-log:active{
+  box-shadow: 1px 1px 8px 1px #9d9d9d;
+}

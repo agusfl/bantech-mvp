@@ -1,0 +1,20 @@
+.logo-img{
+    width: 150px;
+    padding: 0;
+}
+.link-text{
+    font-size: 24px;
+}
+.icon{
+    font-size: 24px;
+    color: white !important;
+}
+
+/* .active{
+    background-color: #1A2049;
+    color: rgb(133, 133, 133);
+}
+
+svg{
+    color: white !important;
+} */
