@@ -72,7 +72,7 @@ npm start
 
 ## Getting Started:
 
-![Alt text](https://img.youtube.com/vi/OKHy-u2kb8M/0.jpg)](https://www.youtube.com/watch?v=OKHy-u2kb8M)
+[![Alt text](https://img.youtube.com/vi/OKHy-u2kb8M/0.jpg)](https://www.youtube.com/watch?v=OKHy-u2kb8M)
 
 ## Features 🥇
 
