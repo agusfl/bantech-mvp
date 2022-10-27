@@ -4,7 +4,7 @@
 
 All your bank information in one place.
 
-![enter image description here](https://github.com/JuanManuelReyes/bantech-mvp/blob/main/flask_server/src/static/img/otrologo.png?raw=true)
+![enter image description here](https://github.com/JuanManuelReyes/bantech-mvp/blob/main/flask_server/src/static/img/a.png?raw=true)
 
 ## Description 📑
 
