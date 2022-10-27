@@ -72,7 +72,7 @@ npm start
 
 ## Getting Started:
 
-ADD DEMO VIDEO
+![Alt text](https://img.youtube.com/vi/OKHy-u2kb8M/0.jpg)](https://www.youtube.com/watch?v=OKHy-u2kb8M)
 
 ## Features 🥇
 
