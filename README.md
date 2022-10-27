@@ -15,6 +15,61 @@ consolidate bank information into typically an **excel**, our solution can solve
 To solve this problem we use a third-party ``API`` (Application Programming Interface) --> [Datanomik](https://www.datanomik.com/en/).
 This API allows us to link your bank accounts to our app, we trust Datanomik because they complied with all the [security standards](https://docs.datanomik.com/docs/about-security).
 
+## Installation
+
+**Environment**: ``Ubuntu LTS 20.04``
+
+#### First you need to clone this repo:
+
+```
+git clone https://github.com/JuanManuelReyes/bantech-mvp.git
+```
+
+#### Secondly install the following dependencies with ``pip``:
+
+```
+autopep8==1.5.7
+click==8.0.1
+colorama==0.4.4
+Flask==2.0.1
+Flask-Login==0.5.0
+Flask-MySQLdb==0.2.0
+Flask-WTF==0.15.1
+itsdangerous==2.0.1
+Jinja2==3.0.1
+MarkupSafe==2.0.1
+mysqlclient==2.0.3
+pycodestyle==2.7.0
+toml==0.10.2
+Werkzeug==2.0.1
+WTForms==2.3.3
+```
+
+#### Execute **backend**:
+
+```
+python flask_server/src/app.py
+```
+
+#### Execute **front-end**:
+
+You need to go to **client** folder and execute the following command
+
+```
+apt-get install node
+npm install
+npm start
+```
+
+#### Database:
+
+You need to install ``MySQL`` and run the following script:
+
+```
+cat script-database.sql | sudo mysql -uroot -p
+```
+Once you enter your password the script will create the database and populate some users data.
+
 ## Getting Started:
 
 ADD DEMO VIDEO
